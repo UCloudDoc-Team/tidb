@@ -4,4 +4,4 @@
 
 **目录：**
 
-{{indexmenu>:database:tidb#1 | skipfile=/^(database:tidb:concepts)$/ nsort dsort msort}}
+{{indexmenu>:database:tidb#1 | nsort dsort msort}}
