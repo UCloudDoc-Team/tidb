@@ -18,4 +18,4 @@ Binlog同步功能可将TiDB的增量数据实时同步到其他存储中。当�
 
 ## 步骤三 使用步骤二中的CommitTS数据，添加消费者
 
-![](http://tidb-docs.cn-bj.ufileos.com/addconsumer001.png)
+![](http://tidb-docs.cn-bj.ufileos.com/addconsumer.png)
