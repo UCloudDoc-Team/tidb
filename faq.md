@@ -1,6 +1,6 @@
 # FAQ
 
-{{indexmenu_n>4}}
+
 
 #### 问: TiDB 易用性如何？
 
