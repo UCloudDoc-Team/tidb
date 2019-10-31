@@ -8,6 +8,7 @@
         * [用户](database/tidb/guide/user)
         * [Binlog同步](database/tidb/guide/binlog)
     * [FAQ](database/tidb/faq)
+    * [TiDB定价](database/tidb/price)
     
     
         
