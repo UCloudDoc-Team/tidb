@@ -8,6 +8,7 @@
     * [实例](database/tidb/guide/instance)
     * [用户](database/tidb/guide/user)
     * [Binlog同步](database/tidb/guide/binlog)
+    * [备份恢复](database/tidb/guide/backup)
 * [FAQ](database/tidb/faq)
 * [TiDB定价](database/tidb/price)
     
