@@ -1,4 +1,4 @@
-<div class="sidebar_title"> 分布式NewSQL数据库 TiDB</div>
+<div class="sidebar_title">分布式NewSQL数据库 TiDB</div>
 
 * [概览](database/tidb/overview)
 * 产品简介
