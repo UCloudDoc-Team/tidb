@@ -111,7 +111,7 @@ set @@time_zone = '+8:00';   SET GLOBAL time_zone ='+8:00';
 
 
 
-#### Q17：TiDB最大连接数
+#### Q13：TiDB最大连接数
 
 系统变量max_connections仅为兼容MySQL而设计，并无实际效果；
 
