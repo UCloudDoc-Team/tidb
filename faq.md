@@ -84,9 +84,9 @@ v2.1.3及其后续版本，默认字符集由uft8改为utf8mb4，效果是一样
 
 #### Q10: TiDB 加个联合索引会锁表吗
 
-首先，TiDB内部没有锁表的机制：https://pingcap.com/docs-cn/dev/reference/sql/statements/flush-tables/#mysql-%E5%85%BC%E5%AE%B9%E6%80%A7。
+首先，TiDB内部没有锁表的机制：https://pingcap.com/docs-cn/dev/reference/sql/statements/flush-tables/#mysql-%E5%85%BC%E5%AE%B9%E6%80%A7
 
-其次，TiDB 中，ADD INDEX 为在线操作，不会阻塞表中的数据读写。https://pingcap.com/docs-cn/dev/reference/sql/statements/add-index/ 。
+其次，TiDB 中，ADD INDEX 为在线操作，不会阻塞表中的数据读写。https://pingcap.com/docs-cn/dev/reference/sql/statements/add-index/
 
 但是， 如果在创建索引的时候，刚好跟要读写的数据 碰巧是同一部分数据，这个是会影响的，因为创建索引需要填充数据，也会涉及读写操作。
 
