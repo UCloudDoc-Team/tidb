@@ -56,8 +56,7 @@ udb-mysql5.6.41的索引键前缀默认限制为767字节，TiDB的表设计的k
       2).系统变量innodb_file_format为Barracuda
 
 如果用户权限不够，先调整自己的super权限：
-
-<code>
+```
 mysql>update mysql.user set super_priv = 'Y' where user = 'root';
 
 mysql>flush privileges;
@@ -65,7 +64,7 @@ mysql>flush privileges;
 mysql>set global innodb_large_prefix=on;
 
 mysql>set global innodb_file_format=Barracuda;
-</code>
+```
 
 2.源端需要修改表属性：
 
