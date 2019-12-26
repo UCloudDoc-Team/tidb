@@ -13,7 +13,7 @@ TiDB当前仅在北京二地域开放。有需要使用的用户请联系技术�
 
 #### Q3: slow log 里面的时间是什么时区？
 
-admin show slow 是跟着服务所在宿主机的时区的，没法设置，建议使用select语句查询，select 会应用大于你设置的时区信息。
+admin show slow 是跟着服务所在宿主机的时区的，没法设置，建议使用select语句查询，select 会应用你设置的时区信息。
 
 ```
 select * from information_schema.slow_query ;
