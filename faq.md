@@ -64,8 +64,8 @@ mysql>flush privileges;
 mysql>set global innodb_large_prefix=on;
 
 mysql>set global innodb_file_format=Barracuda;
-</code
-  >
+</code>
+
 2.源端需要修改表属性：
 
 <code>
