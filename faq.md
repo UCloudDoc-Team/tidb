@@ -1,10 +1,10 @@
 # FAQ
 
 
+#### Q1:TiDB当前覆盖多少地域？
 
-#### Q1: select * for update 导致连接断开？
+TiDB当前仅在北京二地域开放。有需要使用的用户请联系技术支持或者客户经理开放使用。
 
-proxysql v1.4.8 在处理后端db返回码时做了处理，超过2000的错误码，proxysql会断开连接，通过升级proxysql 版本解决，目前新版本已经兼容了后端db自定义错误码，目前升级的版本为v2.0.6
 
 #### Q2：每个小时我们要创建一些中间表，完成计算，然后删除掉？频繁创建和删除表对TiDB 性能影响大吗？
 
@@ -13,7 +13,7 @@ proxysql v1.4.8 在处理后端db返回码时做了处理，超过2000的错误�
 
 #### Q3: slow log 里面的时间是什么时区？
 
-admin show slow 是跟着服务所在宿主机的时区的，没法设置，建议使用select语句查询，select 会应用>你设置的时区信息。
+admin show slow 是跟着服务所在宿主机的时区的，没法设置，建议使用select语句查询，select 会应用大于你设置的时区信息。
 
 ```
 select * from information_schema.slow_query ;
@@ -27,7 +27,7 @@ admin show slow log top 4;
 
 TiDB对事务有限制：
 
-单个事务包含的 SQL 语句不超过 100000 条。
+单个事务包含的 SQL 语句不超过 100000 条。每个键值对不超过 6MB，键值对的总大小不超过 100MB。
 
 #### Q5: TiDB 是否支持 select for update？
 
