@@ -15,11 +15,11 @@ proxysql v1.4.8 在处理后端db返回码时做了处理，超过2000的错误�
 
 admin show slow 是跟着服务所在宿主机的时区的，没法设置，建议使用select语句查询，select 会应用>你设置的时区信息。
 
-<code>
+```
 select * from information_schema.slow_query ;
 
 admin show slow log top 4;
-</code>
+```
 
 #### Q4: 对于一张大表insert into t2 select * from t1; 失败报错 ERROR 2013 (HY000): Lost connection to MySQL server during query
 
@@ -68,9 +68,9 @@ mysql>set global innodb_file_format=Barracuda;
 
 2.源端需要修改表属性：
 
-<code>
+```
 mysql> ALTER TABLE TEST ROW_FORMAT=DYNAMIC;
-</code>
+```
 
 目标端支持：udb-mysql 5.7
 
@@ -97,9 +97,9 @@ v2.1.3及其后续版本，默认字符集由uft8改为utf8mb4，效果是一样
 
 当前实例创建完成后，默认时区为UTC时间，如果用户需要CST时间，需要手动设置时区+8
 
-<code>
+```
 set @@time_zone = '+8:00';   SET GLOBAL time_zone ='+8:00';
-</code>
+```
 
 重新连接mysql即可生效
 
