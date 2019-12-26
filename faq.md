@@ -15,9 +15,11 @@ proxysql v1.4.8 在处理后端db返回码时做了处理，超过2000的错误�
 
 admin show slow 是跟着服务所在宿主机的时区的，没法设置，建议使用select语句查询，select 会应用>你设置的时区信息。
 
+<code>
 select * from information_schema.slow_query ;
-admin show slow log top 4;
 
+admin show slow log top 4;
+</code>
 
 #### Q4: 对于一张大表insert into t2 select * from t1; 失败报错 ERROR 2013 (HY000): Lost connection to MySQL server during query
 
@@ -56,8 +58,11 @@ udb-mysql5.6.41的索引键前缀默认限制为767字节，TiDB的表设计的k
 如果用户权限不够，先调整自己的super权限：
 <code>
 mysql>update mysql.user set super_priv = 'Y' where user = 'root';
+
 mysql>flush privileges;
+
 mysql>set global innodb_large_prefix=on;
+
 mysql>set global innodb_file_format=Barracuda;
 </code
   >
