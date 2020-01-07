@@ -28,7 +28,7 @@
 
 ## 手动备份
 
-除了自动备份，TiDB还提供手动备份选择
+除了自动备份，TiDB还提供手动备份选择，手动备份最多同时保留7份。
 
 ![](http://tidb-docs.cn-bj.ufileos.com/backup003.png)
 
