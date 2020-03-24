@@ -1,6 +1,6 @@
-<div class="sidebar_title">分布式NewSQL数据库 TiDB</div>
+# 概览
 
-* [概览](/tidb/README)
+
 * 产品简介
     * [什么是TiDB](/tidb/introduction/concept)
     * [产品优势](/tidb/introduction/advantages)
