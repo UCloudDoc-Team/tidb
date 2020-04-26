@@ -3,6 +3,7 @@
 * 产品简介
     * [什么是TiDB](/tidb/introduction/concept)
     * [产品优势](/tidb/introduction/advantages)
+    * [类型](/tidb/introduction/tidbtype)
 * 操作指南
     * [实例](/tidb/guide/instance)
     * [用户](/tidb/guide/user)
