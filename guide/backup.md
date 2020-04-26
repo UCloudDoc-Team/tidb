@@ -5,9 +5,6 @@
 
 ## 设置备份策略
 
-创建TiDB实例时可以选择是否开启自动备份策略
-
-![](http://tidb-docs.cn-bj.ufileos.com/backup001.png)
 
 
 | 参数| 说明 | 
