@@ -117,5 +117,11 @@ set @@time_zone = '+8:00';   SET GLOBAL time_zone ='+8:00';
 
 单TiDB实例(流量限制)当前支持最大3000个session（可扩容）；
 
+#### Q14: SQL执行时间突然变长
+
+在执行SQL语句前，TiDB会通过统计信息计算出执行计划，选择全表扫还是从索引中获取数据，如果一张表数据量非常大，TiDB的选择算法误差比较大，一旦选择全表扫，会严重影响集群性能，建议强制使用索引
+
+use index(index_name):https://book.tidb.io/session4/chapter6/sql-optimization-cases.html#%E6%A1%88%E4%BE%8B5-sql-%E6%89%A7%E8%A1%8C%E8%AE%A1%E5%88%92%E4%B8%8D%E5%87%86
+
 
 
