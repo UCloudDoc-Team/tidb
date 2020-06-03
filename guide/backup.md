@@ -33,7 +33,7 @@
 
 TiDB当前支持从备份文件恢复至一个新的TiDB实例。需要用户提前准备好新实例，恢复工作会覆盖新实例数据，选择时请注意。
 
-![](http://tidb-docs.cn-bj.ufileos.com/backup006.png)
+![](http://tidb-docs.cn-bj.ufileos.com/backup004.png)
 
 选择后可以在恢复菜单查看是否完成。
 
