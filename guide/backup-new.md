@@ -1,4 +1,4 @@
-# 备份恢复(同可用区版本)
+# 备份恢复-同可用区
 
 同可用区版本TiDB实例备份恢复依赖UFile Bucket，需创建私有空间并获取公司钥。同可用区版本TiDB暂时只支持定时备份。
 
@@ -28,7 +28,7 @@
 |公钥|授权的存储空间公钥|
 |私钥|授权的存储空间私钥|
 
-![](http://tidb-docs.cn-bj.ufileos.com/backupnew004.png)
+![](http://tidb-docs.cn-bj.ufileos.com/backup004.png)
 
 
 ## 备份恢复
