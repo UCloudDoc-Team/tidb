@@ -28,7 +28,7 @@
 |公钥|授权的存储空间公钥|
 |私钥|授权的存储空间私钥|
 
-![](http://tidb-docs.cn-bj.ufileos.com/backup004.png)
+![](http://tidb-docs.cn-bj.ufileos.com/backupnew004.png)
 
 
 ## 备份恢复
