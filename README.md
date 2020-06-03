@@ -9,6 +9,7 @@
     * [用户](/tidb/guide/user)
     * [Binlog同步](/tidb/guide/binlog)
     * [备份恢复](/tidb/guide/backup)
+    * [备份恢复-同可用区](/tidb/guide/backup-new)  
     * [告警通知](/tidb/guide/monitor)
 * [性能数据](/tidb/capacity)
 * [FAQ](/tidb/faq)
