@@ -2,7 +2,7 @@
 
 # 实例类型
 
-UCloud于2020年4月推出低延时的同可用区TiDB实例版本，用以满足用户对于不同部署模式的性能数据要求。
+UCloud于2020年5月推出低延时的同可用区TiDB实例版本，用以满足用户对于不同部署模式的性能数据要求。
 
 ![](http://tidb-docs.cn-bj.ufileos.com/tidbtype.png)
 
