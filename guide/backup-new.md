@@ -30,6 +30,7 @@
 
 ![](http://tidb-docs.cn-bj.ufileos.com/backupnew004.png)
 
+需要注意的是，此处的存储空间域名需要是内网域名，更改方式为: 空间名.ufile.cn-north-04.ucloud.cn
 
 ## 备份恢复
 
