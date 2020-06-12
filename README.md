@@ -15,7 +15,3 @@
 * [FAQ](/tidb/faq)
 * [TiDB定价](/tidb/price)
     
-    
-    
-    
-        
