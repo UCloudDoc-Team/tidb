@@ -15,5 +15,5 @@
 
 | 参数名| 默认值 | 范围值 | 是否需要重启 | 参数说明 | 
 | --- | --------- | ----------- | ------ | ------- | 
-|proxysql_mysql-max_connections|2048|1 ~ 1000000|否|mysql最大连接数|
-|proxysql_max_connections|10000|1 ~ 100000|否|mysql user最大连接数|
+|proxysql_mysql-max_connections|2048|1 ~ 1000000|否|所有用户总共的最大连接数|
+|proxysql_max_connections|10000|1 ~ 100000|否|每个用户的最大连接数|
