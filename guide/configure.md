@@ -10,6 +10,9 @@
 
 ![](http://tidb-docs.cn-bj.ufileos.com/configure002.png)
 
+
+参数列表
+
 | 参数名| 默认值 | 范围值 | 是否需要重启 | 参数说明 | 
 | --- | --------- | ----------- | ------ | ------- | 
 |proxysql_mysql-max_connections|2048|1 ~ 1000000|否|mysql最大连接数|
