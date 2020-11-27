@@ -1,10 +1,6 @@
-
-
 # 实例类型
 
 支持低延时的同可用区集群和机房级容灾的跨可用区集群。
-
-
 
 ## 跨可用区
 
@@ -18,3 +14,6 @@
 
 ![](http://tidb-doc.cn-bj.ufileos.com/basic/create002.png)
 
+为了满足小数据量用户控制内存使用上限的需求， 我们提供限制TiKV内存的选项。 默认不做限制， 按需使用。 当开启限制功能后，存储(TiKV)节点的总内存使用量会被限制在选定的范围内。
+
+![](http://tidb-doc.cn-bj.ufileos.com/basic/create003.png)
