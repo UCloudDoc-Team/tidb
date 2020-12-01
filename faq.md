@@ -123,5 +123,8 @@ set @@time_zone = '+8:00';   SET GLOBAL time_zone ='+8:00';
 
 use index(index_name):https://book.tidb.io/session4/chapter6/sql-optimization-cases.html#%E6%A1%88%E4%BE%8B5-sql-%E6%89%A7%E8%A1%8C%E8%AE%A1%E5%88%92%E4%B8%8D%E5%87%86
 
+#### Q15: 如何通过tableID 查找表名
+
+INFORMATION_SCHEMA.TABLES 中有对应关系。
 
 
