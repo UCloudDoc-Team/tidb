@@ -1,4 +1,3 @@
-<div class="sidebar_title">分布式NewSQL数据库 TiDB</div>
 
 * [概览](/tidb/README)
 * 产品简介
