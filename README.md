@@ -1,7 +1,7 @@
 # 概览
 
 * 产品简介
-    * [什么是TiDB](/tidb/introduction/concept)
+    * [什么是TiDB.](/tidb/introduction/concept)
     * [产品优势](/tidb/introduction/advantages)
     * [实例类型](/tidb/introduction/instancetype)
 * 操作指南
