@@ -2,4 +2,4 @@
 
 # 什么是TiDB
 
-TiDB 是 PingCAP 公司设计的开源分布式 HTAP (Hybrid Transactional and Analytical Processing) 数据库，结合了传统的 RDBMS 和 NoSQL 的最佳特性。TiDB 兼容 MySQL，支持无限的水平扩展，具备强一致性和高可用性。TiDB 的目标是为 OLTP (Online Transactional Processing) 和 OLAP (Online Analytical Processing) 场景提供一站式的解决方案。UCloud于2019年8月23日将TiDB公有云化，并开始公测，当前使用TiDB版本为 4.0.8 。
+TiDB 是 PingCAP 公司研发的开源分布式关系型数据库。定位于在线事务处理、在线分析处理 HTAP 的融合型数据库产品。兼容 MySQL 协议，支持水平伸缩，具备强一致性和高可用性。UCloud 基于PingCAP的TiDB，实现TiDB在公有云的产品化，给用户提供无需关心底层资源池、按需使用、接入方便的 Serverless 高性能数据库服务。

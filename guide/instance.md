@@ -4,7 +4,7 @@
 
 - 点击【创建实例】
 
-![](http://tidb-doc.cn-bj.ufileos.com/basic/create001.png)
+![](http://tidb-doc.cn-bj.ufileos.com/basic/TiDB-create.png)
 
 - 完善信息
 
