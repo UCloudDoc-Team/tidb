@@ -14,7 +14,8 @@ Binlog同步功能可将TiDB的增量数据实时同步到其他存储中。当�
 
 推荐使用[UDTS](https://docs.ucloud.cn/udts/type/tidb)进行全量迁移，成功完成全量迁移后，会返回CommitTS数据。 
 
-> 如果当前为空数据库可不用全量迁移。
+> 如果当前为空数据库可不进行全量迁移，通过下图方式获取CommitTS。
+![](http://tidb-docs.cn-bj.ufileos.com/committs001.png)
 
 ## 步骤三 使用步骤二中的CommitTS数据，添加消费者
 
