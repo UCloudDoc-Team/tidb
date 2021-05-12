@@ -1,5 +1,5 @@
 
-* [概览](/tidb/README)
+* [概览.](/tidb/README)
 * 产品简介
     * [什么是TiDB](/tidb/introduction/concept)
     * [产品优势](/tidb/introduction/advantages)
