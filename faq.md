@@ -118,4 +118,23 @@ use index(index_name):https://book.tidb.io/session4/chapter6/sql-optimization-ca
 
 INFORMATION_SCHEMA.TABLES 中有对应关系。
 
+#### Q16: 如何查看当前版本
 
+```
+select tidb_version();
+```
+
+#### Q17: 如何查看慢查询
+
+4.0 及以后的版本查询information_schema.cluster_slow_query表， 例如：
+```
+select query_time, query from information_schema.cluster_slow_query 
+  where is_internal = false and time > '2021-05-24 05:00:00' 
+  order by query_time desc limit 10;
+```
+
+4.0 之前的版本通过information_schema.slow_query表查看当前连接点的慢查询语句，如果要查询所有节点的慢查询， 请联系技术支持。
+
+#### Q18: 监控图看有慢查询， 但是information_schema.cluster_slow_query表中无法查询到？
+
+要使用有完全权限的账号，建议使用root账号
