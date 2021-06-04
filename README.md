@@ -8,6 +8,7 @@
     * [实例](/tidb/guide/instance)
     * [用户](/tidb/guide/user)
     * [Binlog同步](/tidb/guide/binlog)
+    * [TiFlash管理](/tidb/guide/tiflash)
     * [备份恢复](/tidb/guide/backup)
     * [参数配置调整](/tidb/guide/configure)
     * [告警通知](/tidb/guide/monitor)
