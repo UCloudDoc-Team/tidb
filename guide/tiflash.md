@@ -7,6 +7,8 @@ TiFlash 是 TiDB HTAP 形态的关键组件，它是 TiKV 的列存扩展，在�
 
 选择TiFlash节点数，开启TiFlash并确保TiFlash状态为“已开启”
 
+![](http://tidb-doc.cn-bj.ufileos.com/tiflash/tiflashopen001.png)
+
 ## 步骤二 按表构建TiFlash副本
 
 构建TiFlash副本
