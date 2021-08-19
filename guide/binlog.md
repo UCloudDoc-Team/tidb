@@ -4,6 +4,25 @@
 
 Binlog 同步功能可将 TiDB 的增量数据实时同步到其他存储中。 支持 MySQL、TiDB、Kafka 作为目标存储。
 
+## 进入管理页面
+
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instance.list.detail.button.png)
+
+## 开启 Binlog
+
+## 全量数据迁移，记录CommitTS数据
+
+## 添加消费者
+
+## 查看消费者
+
+## 删除消费者
+
+## 修改 Binlog GC
+
+## 关闭 Binlog
+
+
 ## 步骤一 开启Binlog
 
 确保Binlog状态为“已开启”
