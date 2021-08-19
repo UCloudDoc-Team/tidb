@@ -4,6 +4,9 @@
     * [什么是TiDB](/tidb/introduction/concept)
     * [产品优势](/tidb/introduction/advantages)
     * [实例类型](/tidb/introduction/instancetype)
+* 计费说明 
+    * [计费指南](/tidb/fee/price)
+    * [回收](/tidb/fee/recycle)
 * 操作指南
     * [实例](/tidb/guide/instance)
     * [用户](/tidb/guide/user)
@@ -15,7 +18,7 @@
 * [数据迁移](/tidb/migration)
 * [性能数据](/tidb/capacity)
 * [FAQ](/tidb/faq)
-* [TiDB定价](/tidb/price)
+
     
 
 
