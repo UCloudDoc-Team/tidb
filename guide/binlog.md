@@ -41,7 +41,7 @@ Binlog 同步服务默认不开启，点击图示开关打开开启窗口
 ![](https://tidb-doc.cn-bj.ufileos.com/binlog/binlog.add.consumer.png)
 
 选择MySQL协议消费者（如MySQL数据库、TiDB数据库或者其它兼容MySQL协议的数据库）或者Kafka， 输入上一步中获取的CommitTS数据以及其它需求信息完成添加。
-![](https://http://tidb-doc.cn-bj.ufileos.com/binlog/binlog.consumer.adding.png)
+![](https://tidb-doc.cn-bj.ufileos.com/binlog/binlog.consumer.adding.png)
 
 ## 查看消费者
 
