@@ -8,7 +8,7 @@
 
 - 选择基础配置版本
 
-根据需要选择配置版本，默认选择旗舰版。 不同版本的说明请参[实例类型](https://docs.ucloud.cn/tidb/introduction/instancetype)。
+根据需要选择配置版本，默认选择旗舰版。 不同版本的说明请参考[实例类型](https://docs.ucloud.cn/tidb/introduction/instancetype)。
 
 ![](http://tidb-doc.cn-bj.ufileos.com/basic/instance_type20211025.1.png)
 
