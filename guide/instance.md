@@ -22,22 +22,35 @@
 
 - 管理设置
 
-设置管理员(root)密码及实例名称
+可以为实例自定义实例名称， 系统默认会生成“TiDB”。 设置管理员(root)密码， 可以自行输入， 也可以点击“随机生成”。
 
 - 立即购买
 
 当所有信息完整以后， 点击右上角的“立即购买” 按钮来创建实例。
 
+## 查看TiDB实例列表
+
+进入产品主页， 会默认列出当前地域的实例列表。 
+
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instance.list1.png)
+
+
+## 查看TiDB实例详情
+
+进入产品主页， 会默认列出当前地域的实例列表。 找到实例，点击操作栏中的“详情”按钮进入详情页面。
+
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instance.list.detail.button.png)
+
+详情页面左侧会显示实例的基础信息等内容， 右侧会展示监控信息，监控项有数据量，QPS，TPS，内存使用量等。
+
+![](http://tidb-docs.cn-bj.ufileos.com/config001.png)
+
 ## 删除TiDB实例
+
+进入产品主页， 会默认列出当前地域的实例列表。 找到需要删除的实例，点击操作栏中的“删除实例”按钮进入删除确认页面。
+
+![](http://tidb-doc.cn-bj.ufileos.com/basic/delete_button.png)
 
 ![](http://tidb-docs.cn-bj.ufileos.com/delete001.png)
 
-## 查看TiDB实例监控
-
-目前的监控有数据量，QPS，TPS，内存使用量。
-
-内存使用可根据用户实际使用进行弹性扩容。
-
-
-![](http://tidb-docs.cn-bj.ufileos.com/config001.png)
 
