@@ -2,7 +2,7 @@
 
 提供三种实例类型供用户选择。
 
-![](http://http://tidb-doc.cn-bj.ufileos.com/basic/instance_type20211025.1.png)
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instance_type20211025.1.png)
 
 ## 旗舰版
 
