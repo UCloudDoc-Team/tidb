@@ -6,28 +6,55 @@
 
 ![](http://tidb-doc.cn-bj.ufileos.com/basic/TiDB-create.png)
 
-- 完善信息
+- 选择基础配置版本
 
-根据信息选择实例类型，VPC 和子网，为保证IP可用数量，我们暂时仅支持子网掩码位数小于22的子网。
+根据需要选择配置版本，默认选择旗舰版。 不同版本的说明请参考[实例类型](https://docs.ucloud.cn/tidb/introduction/instancetype)。
 
-![](http://tidb-doc.cn-bj.ufileos.com/basic/create0012.png)
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instance_type20211025.1.png)
 
-- 内存限制
+- 网络设置
+
+选择实例所属VPC及子网， 系统会默认选择列表中的第一项。
+
+- 指定IP及端口创建实例
+
+默认情况下系统会自动分配一个IP及一个端口用来访问数据库。 如果用户需要指定IP及端口， 请选中“指定IP及端口”框， 页面会增加显示IP及端口输入框， 在对应的输入框中输入指定内容即可。
+
+> 端口范围 1~65535, 禁用端口: 22,25,111,7002,7041,8080,9100,9115
  
-为了满足小数据量用户控制内存使用上限的需求， 我们提供限制TiKV内存的选项。 默认不做限制， 按需使用。 当开启限制功能后，存储(TiKV)节点的总内存使用量会被限制在60G/30G的范围内。
+![](http://tidb-doc.cn-bj.ufileos.com/basic/create_fixed_ip_port.png)
 
-![](http://tidb-doc.cn-bj.ufileos.com/basic/create0013.png)
+- 管理设置
+
+可以为实例自定义实例名称， 系统默认会生成“TiDB”。 设置管理员(root)密码， 可以自行输入， 也可以点击“随机生成”。
+
+- 立即购买
+
+当所有信息完整以后， 点击右上角的“立即购买” 按钮来创建实例。
+
+## 查看TiDB实例列表
+
+进入产品主页， 会默认列出当前地域的实例列表。 
+
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instance.list1.png)
+
+
+## 查看TiDB实例详情
+
+进入产品主页， 会默认列出当前地域的实例列表。 找到实例，点击操作栏中的“详情”按钮进入详情页面。
+
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instance.list.detail.button.png)
+
+详情页面左侧会显示实例的基础信息等内容， 右侧会展示监控信息，监控项有数据量，QPS，TPS，内存使用量等。
+
+![](http://tidb-docs.cn-bj.ufileos.com/config001.png)
 
 ## 删除TiDB实例
 
+进入产品主页， 会默认列出当前地域的实例列表。 找到需要删除的实例，点击操作栏中的“删除实例”按钮进入删除确认页面。
+
+![](http://tidb-doc.cn-bj.ufileos.com/basic/delete_button.png)
+
 ![](http://tidb-docs.cn-bj.ufileos.com/delete001.png)
 
-## 查看TiDB实例监控
-
-目前的监控有数据量，QPS，TPS，内存使用量。
-
-内存使用可根据用户实际使用进行弹性扩容。
-
-
-![](http://tidb-docs.cn-bj.ufileos.com/config001.png)
 
