@@ -17,7 +17,7 @@
 
 进入 资源监控UMon - 资源监控：https://console.ucloud.cn/umon/overview
 
-选择 资源类型=分布式NewSQL数据库 地域-可用区=华北（北京）-可用区B ，可查看到当前北京地域TiDB实例
+选择 资源类型=分布式NewSQL数据库 地域-可用区=华北一-可用区B ，可查看到当前北京地域TiDB实例
 ![](http://tidb-docs.cn-bj.ufileos.com/monitortemp004.png)
 
 选择需要告警的资源，进行绑定
