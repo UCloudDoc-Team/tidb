@@ -138,3 +138,10 @@ select query_time, query from information_schema.cluster_slow_query
 #### Q18: 监控图看有慢查询， 但是information_schema.cluster_slow_query表中无法查询到？
 
 要使用有完全权限的账号，建议使用root账号
+
+#### Q19: 如何处理 TiCDC 创建同步任务或同步到 MySQL 时遇到 Error 1298: Unknown or incorrect time zone: 'UTC' 错误?
+
+这是因为下游 MySQL 没有加载时区，可以通过 mysql_tzinfo_to_sql 命令加载时区，加载后就可以正常创建任务或同步任务。
+
+mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql -p
+
