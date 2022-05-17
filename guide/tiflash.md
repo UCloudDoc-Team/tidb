@@ -1,7 +1,7 @@
 # 如何使用TiFlash
 
 ## 简介
-TiFlash 是 TiDB HTAP 形态的关键组件。开启TiFlash后可以满足用户的分析型业务场景需求
+TiFlash 是 TiDB HTAP 形态的关键组件。开启TiFlash后可以更好的满足用户的分析型业务场景需求。
 
 ## 步骤一 开启TiFlash
 
