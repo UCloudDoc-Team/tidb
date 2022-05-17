@@ -1,14 +1,17 @@
 # 如何使用TiFlash
 
 ## 简介
-TiFlash 是 TiDB HTAP 形态的关键组件，它是 TiKV 的列存扩展，在提供了良好的隔离性的同时，也兼顾了强一致性。列存副本通过 Raft Learner 协议异步复制，但是在读取的时候通过 Raft 校对索引配合 MVCC 的方式获得 Snapshot Isolation 的一致性隔离级别。这个架构很好地解决了 HTAP 场景的隔离性以及列存同步的问题。
+TiFlash 是 TiDB HTAP 形态的关键组件。开启TiFlash后可以更好的满足用户的分析型业务场景需求。
 
 ## 步骤一 开启TiFlash
 
-选择TiFlash节点数，开启TiFlash并确保TiFlash状态为“已开启”
+点击按钮，选择TiFlash节点数，确定开启，确保TiFlash状态为“已开启”
 
-![](http://tidb-doc.cn-bj.ufileos.com/tiflash/tiflashopen002.png)
-![](http://tidb-doc.cn-bj.ufileos.com/tiflash/tiflashopen001.png)
+![](http://tidb-doc.cn-bj.ufileos.com/tiflash/tiflashopen003.png)
+
+![](http://tidb-doc.cn-bj.ufileos.com/tiflash/tiflashopen004.png)
+
+![](http://tidb-doc.cn-bj.ufileos.com/tiflash/tiflashopen005.png)
 
 ## 步骤二 按表构建TiFlash副本
 
