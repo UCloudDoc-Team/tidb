@@ -138,3 +138,11 @@ select query_time, query from information_schema.cluster_slow_query
 #### Q18: 监控图看有慢查询， 但是information_schema.cluster_slow_query表中无法查询到？
 
 要使用有完全权限的账号，建议使用root账号
+
+#### Q19: TiDB数据库报错 ERROR 1105 (HY000): Out Of Memory Quota处理方法
+
+目前有两种处理方式
+
+1. 客户在执行oom的语句前设置session变量 SET tidb_mem_quota_query = 8 << 30;
+
+2. 联系技术支持，让后端同学修改tidb的配置文件，使其永久生效。
