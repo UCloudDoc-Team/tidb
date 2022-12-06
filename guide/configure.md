@@ -27,4 +27,6 @@
 | --- | --------- | ----------- | ------ | ------- | 
 |proxysql_mysql-max_connections|2048|1 ~ 1000000|否|所有用户总共的最大连接数|
 |proxysql_max_connections|10000|1 ~ 100000|否|每个用户的最大连接数|
-|tidb_gc|10m0s| 10m - 720h | 否| tikv_gc_life_time |
+|tidb_gc|10m0s|[10m - 720h]|否|tikv_gc_life_time|
+|tidb_txn-total-size-limit | 104857600 | [104857600 - 1099511627776] |是| txn-total-size-limit|
+| tidb_max-index-length |3072|[3072 - 12288]|是|max-index-length|
