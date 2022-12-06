@@ -139,7 +139,16 @@ select query_time, query from information_schema.cluster_slow_query
 
 要使用有完全权限的账号，建议使用root账号
 
-#### Q19: TiDB数据库报错 ERROR 1105 (HY000): Out Of Memory Quota处理方法
+
+
+
+
+
+
+
+
+
+#### Q20: TiDB数据库报错 ERROR 1105 (HY000): Out Of Memory Quota处理方法
 
 目前有两种处理方式
 
