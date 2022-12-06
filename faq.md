@@ -3,7 +3,7 @@
 
 #### Q1:TiDB当前覆盖多少地域？
 
-TiDB当前支持北京二、上海二、广东等地域。在其它地域有需要使用的用户请联系技术支持或者客户经理开放使用。
+TiDB当前支持华北一、上海二、广东等地域。在其它地域有需要使用的用户请联系技术支持或者客户经理开放使用。
 
 #### Q2：每个小时业务要创建一些中间表，完成计算，然后删除掉，频繁创建和删除表对TiDB 性能影响大吗？
 
@@ -138,3 +138,17 @@ select query_time, query from information_schema.cluster_slow_query
 #### Q18: 监控图看有慢查询， 但是information_schema.cluster_slow_query表中无法查询到？
 
 要使用有完全权限的账号，建议使用root账号
+
+#### Q19: 如何处理 TiCDC 创建同步任务或同步到 MySQL 时遇到 Error 1298: Unknown or incorrect time zone: 'UTC' 错误?
+
+这是因为下游 MySQL 没有加载时区，可以通过 mysql_tzinfo_to_sql 命令加载时区，加载后就可以正常创建任务或同步任务。
+
+mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql -p
+
+#### Q20: TiDB数据库报错 ERROR 1105 (HY000): Out Of Memory Quota处理方法
+
+目前有两种处理方式
+
+1. 客户在执行oom的语句前设置session变量 SET tidb_mem_quota_query = 8 << 30;
+
+2. 联系技术支持，让后端同学修改tidb的配置文件，使其永久生效。
