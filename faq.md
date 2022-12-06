@@ -145,3 +145,10 @@ select query_time, query from information_schema.cluster_slow_query
 
 mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root mysql -p
 
+#### Q20: TiDB数据库报错 ERROR 1105 (HY000): Out Of Memory Quota处理方法
+
+目前有两种处理方式
+
+1. 客户在执行oom的语句前设置session变量 SET tidb_mem_quota_query = 8 << 30;
+
+2. 联系技术支持，让后端同学修改tidb的配置文件，使其永久生效。
