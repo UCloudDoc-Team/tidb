@@ -15,6 +15,8 @@
     * [备份恢复](/tidb/guide/backup)
     * [参数配置调整](/tidb/guide/configure)
     * [告警通知](/tidb/guide/monitor)
+    * [证书管理](/tidb/guide/ssl)
+    * [数据库审计](/tidb/guide/audit)
 * [数据迁移](/tidb/migration)
 * [性能数据](/tidb/capacity)
 * [FAQ](/tidb/faq)
