@@ -10,7 +10,7 @@
 
 开启审计后会部署Udss审计agent服务，具体审计使用请参考Udss文档：https://docs.ucloud.cn/udas/README
 
-![](http://tidb-docs.cn-bj.ufileos.com/audit/start-audit.png)
+![](https://tidb-doc.cn-bj.ufileos.com/audit/start-audit.png)
 
 
 ## 关闭数据库审计
@@ -19,7 +19,7 @@
 
 关闭后会删除Udss审计agent服务，Udss停止/删除请至Udss控制台操作
 
-![](http://tidb-docs.cn-bj.ufileos.com/audit/stop-audit.png)
+![](https://tidb-doc.cn-bj.ufileos.com/audit/stop-audit.png)
 
 ## 审计详情
 
@@ -27,4 +27,4 @@
 
 审计信息展示，UTiDB审计状态，Udss实例名称，Udss审计实例内网Ip
 
-![](http://tidb-docs.cn-bj.ufileos.com/audit/audit-info.png)
+![](https://tidb-doc.cn-bj.ufileos.com/audit/audit-info.png)

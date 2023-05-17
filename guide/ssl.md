@@ -8,7 +8,7 @@ SSL 证书管理功能可管理实例证书
 
 在产品主页中找到对应的实例， 点击“详情”按钮进入详情页面。
 
-![](https://tidb-doc.cn-bj.ufileos.com/basic/instance.list.detail.button.png)
+![](https://tidb-doc.cn-bj.ufileos.com/basic/instance.list.detail.button.1.png)
 
 ## 上传 SSL 证书
 
