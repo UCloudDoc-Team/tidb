@@ -10,7 +10,7 @@
 
 根据需要选择配置版本，默认选择旗舰版。 不同版本的说明请参考[实例类型](https://docs.ucloud.cn/tidb/introduction/instancetype)。
 
-![](http://tidb-doc.cn-bj.ufileos.com/basic/instance_type20211025.1.png)
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instence_type20230517.png)
 
 - 网络设置
 
@@ -49,7 +49,7 @@
 
 进入产品主页， 会默认列出当前地域的实例列表。 找到实例，点击操作栏中的“详情”按钮进入详情页面。
 
-![](http://tidb-doc.cn-bj.ufileos.com/basic/instance.list.detail.button.png)
+![](http://tidb-doc.cn-bj.ufileos.com/basic/instance.list.detail.button.1.png)
 
 详情页面左侧会显示实例的基础信息等内容， 右侧会展示监控信息，监控项有数据量，QPS，TPS，内存使用量等。
 
