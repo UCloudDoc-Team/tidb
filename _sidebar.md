@@ -3,6 +3,7 @@
 * 产品简介
     * [什么是TiDB](/tidb/introduction/concept)
     * [产品优势](/tidb/introduction/advantages)
+    * [适用场景](/tidb/introduction/applications)
     * [实例类型](/tidb/introduction/instancetype)
 * 计费说明 
     * [计费指南](/tidb/fee/price)
