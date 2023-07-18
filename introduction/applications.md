@@ -1,6 +1,6 @@
 # 适用场景
 
-用户提供一站式 OLTP (Online Transactional Processing)、OLAP (Online Analytical Processing)、HTAP 解决方案。TiDB 适合高可用、强一致要求较高、数据规模较大等各种应用场景。
+为用户提供一站式 OLTP (Online Transactional Processing)、OLAP (Online Analytical Processing)、HTAP 解决方案。TiDB 适合高可用、强一致要求较高、数据规模较大等各种应用场景。
 
 ## 对数据一致性及高可靠、系统高可用、可扩展性、容灾要求较高的金融行业属性的场景
 
