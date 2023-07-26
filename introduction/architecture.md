@@ -1,3 +1,3 @@
-# UCLOUD云上TiDB整体架构
+# UCLOUD云上TiDB架构示意图
 
 ![](http://tidb-doc.cn-bj.ufileos.com/architecture/architecture.png)
