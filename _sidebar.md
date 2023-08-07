@@ -18,6 +18,7 @@
     * [告警通知](/tidb/guide/monitor)
     * [证书管理](/tidb/guide/ssl)
     * [数据库审计](/tidb/guide/audit)
+    * [安全组](/tidb/guide/secgroup)
 * [数据迁移](/tidb/migration)  
 * [性能数据](/tidb/capacity)     
 * [FAQ](/tidb/faq)
