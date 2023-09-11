@@ -10,13 +10,13 @@ SSL 证书管理功能可管理实例证书
 
 ![](https://tidb-doc.cn-bj.ufileos.com/basic/instance.list.detail.button.1.png)
 
-## 上传 SSL 证书
+## 添加 SSL 证书
 
 切换到 “证书管理” 面板
 
 ![](https://tidb-doc.cn-bj.ufileos.com/ssl/证书管理.png)
 
-上传证书支持 USSL导入，本地上传和手动输入三种方式 
+添加证书支持 USSL导入，本地上传和手动输入三种方式
 
 ![](https://tidb-doc.cn-bj.ufileos.com/ssl/证书上传.png)
 
@@ -138,7 +138,7 @@ DER转PEM：
 
 ## 查看证书详情
 
-USSL导入证书查看详情会很跳转USSL详情
+USSL导入证书查看详情会跳转USSL详情
 
 ![](https://tidb-doc.cn-bj.ufileos.com/ssl/ussl证书详情.png)
 
