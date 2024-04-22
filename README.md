@@ -26,7 +26,9 @@
         * [数据库审计](/tidb/guide/audit)
         * [安全组](/tidb/guide/secgroup)
 * [数据迁移](/tidb/migration)
-* [性能数据](/tidb/capacity)
+* 性能数据
+    * [TiDB](/tidb/utidb_capacity)
+    * [TiDB Serverless](/tidb/capacity)
 * [FAQ](/tidb/faq)
 
     
