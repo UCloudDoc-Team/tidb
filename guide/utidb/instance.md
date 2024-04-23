@@ -1,7 +1,7 @@
 # 实例
 
-## 创建TiDB实例
-- 点击【创建实例】
+## 创建TiDB集群
+- 点击【创建集群】
 
 ![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-create01.png)
 
@@ -9,7 +9,7 @@
 
 计算规格：可按一定CPU内存比选择，目前支持1:2、1:4、1:8
 
-磁盘大小：TiKV最低磁盘1000G，加减步长500；TiDB最低200G，加减步长100；PD磁盘不计费，不做选择
+磁盘大小：TiKV最小磁盘1000G，加减步长500；TiDB最小200G，加减步长100；PD磁盘不计费，不做选择
 
 节点数量：TiKV/PD 最小3节点，TiDB最小2节点，加减步长为1
 
@@ -76,7 +76,7 @@
 
 打开Grafana页面后，输入集群root账户信息登录
 
-若您未配置外网访问，则需通过Proxy节点信息，自行搭建带外网的代理服务
+若您未购买外网ULB资源，仅临时需要查看监控页面，则可根据Proxy节点信息，自行搭建带外网的代理服务
 ![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-proxy.png)
 
 ## 删除TiDB实例

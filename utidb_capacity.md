@@ -11,7 +11,7 @@ TiDB 可以通过水平扩容的方式提升性能，以下为TiDB在典型配�
 | type	| config  | quantity | storage |
 | TiDB	| 16C/32G | 2	     | 200     |
 | TiKV	| 16C/64G | 3	     | 1000    |
-| Pd    | 4C/8G   | 3        | N/A     |
+| PD    | 4C/8G   | 3        | N/A     |
 
 ## oltp_point_select
 | Threads	| TPS	 | 95% latency (ms) |

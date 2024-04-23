@@ -10,7 +10,7 @@ TiDB将权限管理作为了控制台的模块让用户调整。
 
 ![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-adduser.png)
 
-## 重制用户密码
+## 重置用户密码
 
 ![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-resetpw.png)
 

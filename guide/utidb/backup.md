@@ -4,6 +4,7 @@
 
 TiDB服务会备份数据到用户的US3-Bucket，方便用户自助下载。 需要用户账号开通US3权限，并授权操作（创建bucket，上传备份文件，下载备份文件用于恢复）US3产品。
 
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/backup_auth.png)
 ![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-listbackup.png)
 ![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-listrestore.png)
 
