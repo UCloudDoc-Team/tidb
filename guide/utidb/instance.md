@@ -52,7 +52,7 @@
 
 详情页面左侧会显示实例的基础信息等内容，可以在页面左侧进行续费操作， 右上侧会展示集群当前节点配置及状态信息，右下侧会展示监控信息，监控项有数据量，QPS，TPS，内存使用量等。
 
-## 查看TiDB实例Dashboard
+<!-- ## 查看TiDB实例Dashboard
 
 进入产品主页，选择TiDB，会默认列出当前地域的实例列表。 找到实例，点击操作栏中的“Dashboard”按钮跳转TiDB原生Dashboard页面。
 
@@ -62,9 +62,9 @@
 
 ![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-dashboardbutton02.png)
 
-打开Dashboard页面后，输入集群root账户信息登录
+打开Dashboard页面后，输入集群root账户信息登录 -->
 
-## 查看TiDB实例Grafana/Prometheus
+<!-- ## 查看TiDB实例Grafana/Prometheus
 
 进入产品主页，选择TiDB，会默认列出当前地域的实例列表。 找到实例，点击操作栏中的“...”按钮，选择Grafana/Prometheus按钮，跳转TiDB原生Grafana/Prometheus页面。
 
@@ -77,7 +77,7 @@
 打开Grafana页面后，输入集群root账户信息登录
 
 若您未购买外网ULB资源，仅临时需要查看监控页面，则可根据Proxy节点信息，自行搭建带外网的代理服务
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-proxy.png)
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-proxy.png) -->
 
 ## 删除TiDB实例
 
