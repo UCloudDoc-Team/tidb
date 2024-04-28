@@ -41,14 +41,14 @@
 
 进入产品主页，选择TiDB，会默认列出当前地域的实例列表。 
 
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-list.png)
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/list.png)
 
 
 ## 查看TiDB实例详情
 
 进入产品主页，选择TiDB，会默认列出当前地域的实例列表。 找到实例，点击操作栏中的“详情”按钮进入详情页面。
 
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-detail.png)
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/detail.png)
 
 详情页面左侧会显示实例的基础信息等内容，可以在页面左侧进行续费操作， 右上侧会展示集群当前节点配置及状态信息，右下侧会展示监控信息，监控项有数据量，QPS，TPS，内存使用量等。
 
@@ -83,8 +83,5 @@
 
 进入产品主页，选择TiDB，会默认列出当前地域的实例列表。 找到需要删除的实例，点击操作栏中的“删除实例”按钮进入删除确认页面。
 
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-delete-button.png)
-
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/utidb-delete.png)
-
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/delete.png)
 
