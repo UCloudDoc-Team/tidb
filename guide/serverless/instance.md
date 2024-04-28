@@ -1,6 +1,6 @@
 # 实例
 
-## 创建TiDB实例
+## 创建TiDB Serverless实例
 
 - 点击【创建实例】
 
