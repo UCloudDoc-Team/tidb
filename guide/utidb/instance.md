@@ -29,9 +29,13 @@
 
 - 管理设置
 
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/create_password.png)
+
 可以为实例自定义实例名称， 系统默认会生成“TiDB”。 设置管理员(root)密码， 可以自行输入， 也可以点击“随机生成”。
 
 - 询价购买
+
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/buy_p.png)
 
 当节点配置信息确定以后， 右上角选择付费周期，会显示当前付费周期合计费用。
 
@@ -41,7 +45,7 @@
 
 进入产品主页，选择TiDB，会默认列出当前地域的实例列表。 
 
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/list.png)
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/tidb-list.png)
 
 
 ## 查看TiDB实例详情

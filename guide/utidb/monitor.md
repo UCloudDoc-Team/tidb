@@ -26,10 +26,9 @@ yum install nginx
 ```
 
 2. 修改nginx.conf
-```
-vi /etc/nginx/nginx.conf
 
-在 http 中添加下面配置：
+vi /etc/nginx/nginx.conf
+```
     # prometheus proxy
     upstream prometheus_server {
         server 10.9.163.206:9090; # 使用详情中PROXY prometheus 地址
@@ -50,6 +49,7 @@ vi /etc/nginx/nginx.conf
     server {
         listen 3000; # 端口自定，注意防火墙开放端口
         location / {
+            proxy_set_header Host $http_host;
             proxy_pass http://grafana_server/;
         }
     }
