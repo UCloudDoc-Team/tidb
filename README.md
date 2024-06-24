@@ -14,6 +14,9 @@
         * [实例](/tidb/guide/utidb/instance)
         * [用户](/tidb/guide/utidb/user)
         * [备份恢复](/tidb/guide/utidb/backup)
+        * [Binlog同步](/tidb/guide/utidb/binlog)
+        * [TiFlash管理](/tidb/guide/utidb/tiflash)
+        * [集群管理](/tidb/guide/utidb/cluster)
         * [Dashboard/监控访问](/tidb/guide/utidb/monitor)
     * TiDB Serverless
         * [实例](/tidb/guide/serverless/instance)
