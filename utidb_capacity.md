@@ -4,46 +4,32 @@ TiDB 可以通过水平扩容的方式提升性能，以下为TiDB在典型配�
 
 - 版本: v7.1.2
 - 表: 32 * 1000万条数据
-- 测试时间: 1小时
+- 测试时间: 1200s
 - Sysbench: v1.0.13
 
 ## 集群配置
 | type	| config  | quantity | storage |
+| ----- | ------  | -------- | ------- |
 | TiDB	| 16C/32G | 2	     | 200     |
 | TiKV	| 16C/64G | 3	     | 1000    |
 | PD    | 4C/8G   | 3        | N/A     |
 
 ## oltp_point_select
-| Threads	| TPS	 | 95% latency (ms) |
-| --------- | ------ | ---------------- |
-| 50	    | 35309	 | 1.93             |
-| 100	    | 64853	 | 2.00             |
-| 200	    | 118462 | 2.22             |
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/oltppointselect.png)
+
+## oltp_read_only
+
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/oltpreadonly.png)
+
+## oltp_write_only
+
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/oltpwriteonly.png)
 
 ## oltp_read_write
-| Threads	| TPS	 | 95% latency (ms) |
-| --------- | ------ | ---------------- |
-| 50	    | 1218	 | 48.3             |
-| 100	    | 2235	 | 53.9             |
-| 200	    | 3380   | 87.6             |
 
-## oltp_update_non_index
-| Threads	| TPS	 | 95% latency (ms) |
-| --------- | ------ | ---------------- |
-| 100	    | 10928	 | 11.7             |
-| 200	    | 19985	 | 12.8             |
-| 400	    | 35621  | 14.7             |
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/oltpreadwrite.png)
 
 ## oltp_update_index
-| Threads	| TPS	 | 95% latency (ms) |
-| --------- | ------ | ---------------- |
-| 100	    | 8854	 | 14.7             |
-| 200	    | 14414	 | 18.6             |
-| 400	    | 21997  | 25.3             |
 
-## oltp_insert
-| Threads	| TPS	 | 95% latency (ms) |
-| --------- | ------ | ---------------- |
-| 100	    | 15575	 | 8.13             |
-| 200	    | 25078	 | 11.0             |
-| 400	    | 38436  | 15.6             |
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/oltpupdateindex.png)
+
