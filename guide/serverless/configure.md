@@ -12,13 +12,13 @@
 
 切换到 “参数配置” 面板， 会自动列出所有的参数及当前配置
 
-![](http://tidb-docs.cn-bj.ufileos.com/configure00.png)
+![](https://tidb-doc.cn-bj.ufileos.com/config/configure00.png)
 
 ## 修改
 
 输入框中输入希望修改的参数，并点击提交
 
-![](http://tidb-docs.cn-bj.ufileos.com/configure002.png)
+![](https://tidb-doc.cn-bj.ufileos.com/config/configure002.png)
 
 
 ## 参数列表

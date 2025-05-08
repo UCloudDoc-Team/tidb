@@ -2,29 +2,24 @@
 
 ## 创建告警模板
 
-进入 资源监控UMon - 告警模板：https://console.ucloud.cn/umon/template
+进入 资源监控UMon - 告警管理：https://console.ucloud.cn/umonitor/alarmManagement
 
-创建模板
-![](http://tidb-docs.cn-bj.ufileos.com/monitortemp001.png)
+打开告警策略 - 新建告警策略
+![](https://tidb-doc.cn-bj.ufileos.com/monitor/cloudwatch001.png)
 
-选择 分布式NewSQL数据库
-![](http://tidb-docs.cn-bj.ufileos.com/monitortemp002.png)
-
-添加需要告警的监控项，设置阈值并点击左上角 “保存”
-![](http://tidb-docs.cn-bj.ufileos.com/monitortemp003.png)
+1. 资源类型选择 分布式NewSQL数据库TiDB
+2. 添加要绑定资源
+3. 选择默认告警条件模版或手动配置告警条件
+4. 配置通知信息
+5. 设置告警策略名称后点击 提交 按钮即可完成告警策略绑定
+![](https://tidb-doc.cn-bj.ufileos.com/monitor/createalert002.png)
 
 ## 绑定资源
 
-进入 资源监控UMon - 资源监控：https://console.ucloud.cn/umon/overview
+进入 资源监控UMon - 告警管理 - 告警策略：https://console.ucloud.cn/umonitor/alarmManagement/alarmPolicy
 
-选择 资源类型=分布式NewSQL数据库 地域-可用区=华北一-可用区B ，可查看到当前北京地域TiDB实例
-![](http://tidb-docs.cn-bj.ufileos.com/monitortemp004.png)
+选择 要修改告警策略，点击编辑按钮
+![](https://tidb-doc.cn-bj.ufileos.com/monitor/editalert001.png)
 
-选择需要告警的资源，进行绑定
-![](http://tidb-docs.cn-bj.ufileos.com/monitortemp005.png)
-
-![](http://tidb-docs.cn-bj.ufileos.com/monitortemp006.png)
-
-通知样例：
-
-![](http://tidb-docs.cn-bj.ufileos.com/temp.png)
+选择资源中点击添加资源按钮，选择要绑定的TiDB集群
+![](https://tidb-doc.cn-bj.ufileos.com/monitor/editalert002.png)
