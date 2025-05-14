@@ -1,84 +1,42 @@
 
 
-# Dashboard/监控访问
+# 监控信息 
 
-TiDB服务提供 PingCAP 原生 Dashboard/Grafana/Prometheus 等组件访问
+按规格售卖TiDB控制台提供监控信息，包含TiDB集群及节点的各项指标，用户可以通过控制台查看当前集群的运行状态
 
-TiDB提供代理入口节点，用户需自行配置外网代理服务访问监控组件，配置外网代理时需注意不要开放不必要的端口，避免网络安全事故。
+集群监控按监控指标分为集群性能监控和集群节点监控，集群性能监控在详情概览页中展示，集群节点监控在详情的'监控信息'中展示
 
-## 代理节点
+## 集群性能监控
 
-TiDB服务集群提供两个Proxy节点，用以代理Dashboard/Grafana/Prometheus服务
+集群性能监控在详情概览页右下方展示，展示内容包括集群SQL执行时间、QPS、TPS、连接数及连接数使用率等信息
 
-您可以通过‘详情’页中的节点列表中选择‘PROXY’查询到当前节点代理地址
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/monitor.png)
 
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/proxy_list.png)
+## 集群节点监控
 
-## 配置访问代理
+集群节点监控在详情页的'监控信息'中展示，展示内容包括集群各节点的CPU、内存、磁盘IO、网络IO等信息
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/monitor-node.png)
 
-您首先需要创建一台与TiDB集群同VPC下的，带外网配置的云主机，然后按以下步骤配置代理服务
+## 告警配置
 
-提示：***不要开不必要的端口， 建议云主机防火墙设置只开放特定来源IP可以访问***
+进入 资源监控UMon - 告警管理：https://console.ucloud.cn/umonitor/alarmManagement
 
-1. 安装 nginx 服务
-```
-yum install nginx
-```
+打开告警策略 - 新建告警策略
+![](https://tidb-doc.cn-bj.ufileos.com/monitor/cloudwatch001.png)
 
-2. 修改nginx.conf
+1. 资源类型选择 分布式NewSQL数据库TiDB
+2. 添加要绑定资源
+3. 选择默认告警条件模版或手动配置告警条件
+4. 配置通知信息
+5. 设置告警策略名称后点击 提交 按钮即可完成告警策略绑定
+![](https://tidb-doc.cn-bj.ufileos.com/monitor/createalert002.png)
 
-vi /etc/nginx/nginx.conf
-```
-    # prometheus proxy
-    upstream prometheus_server {
-        server 10.9.163.206:9090; # 使用详情中PROXY prometheus 地址
-        server 10.9.174.142:9090; # 使用详情中PROXY prometheus 地址
-    }
-    server {
-        listen 9090; # 端口自定，注意防火墙开放端口
-        location / {
-            proxy_pass http://prometheus_server/;
-        }
-    }
+## 绑定资源
 
-    # grafana proxy
-    upstream grafana_server {
-        server 10.9.163.206:3000; # 使用详情中PROXY grafana 地址
-        server 10.9.174.142:3000; # 使用详情中PROXY grafana 地址
-    }
-    server {
-        listen 3000; # 端口自定，注意防火墙开放端口
-        location / {
-            proxy_set_header Host $http_host;
-            proxy_pass http://grafana_server/;
-        }
-    }
+进入 资源监控UMon - 告警管理 - 告警策略：https://console.ucloud.cn/umonitor/alarmManagement/alarmPolicy
 
-    # dashboard proxy
-    upstream dashboard_server {
-        server 10.9.163.206:2379; # 使用详情中PROXY dashboard 地址
-        server 10.9.174.142:2379; # 使用详情中PROXY dashboard 地址
-    }
-    server {
-        listen 2379; # 端口自定，注意防火墙开放端口
-        location / {
-            proxy_pass http://dashboard_server/;
-        }
-    }
-```
+选择 要修改告警策略，点击编辑按钮
+![](https://tidb-doc.cn-bj.ufileos.com/monitor/editalert001.png)
 
-3. 启动nginx服务
-```
-systemctl start nginx
-```
-
-## 访问
-根据您配置的代理端口，在浏览器中访问对应服务
-
-访问 Dashboard和Grafana时需要root账户登录认证
-
-dashboard
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/dashboard-login.png)
-
-grafana  
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/grafana-login.png)
+选择资源中点击添加资源按钮，选择要绑定的TiDB集群
+![](https://tidb-doc.cn-bj.ufileos.com/monitor/editalert002.png)
