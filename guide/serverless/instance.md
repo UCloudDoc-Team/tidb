@@ -55,7 +55,7 @@
 
 详情页面左侧会显示实例的基础信息等内容，可以在页面左侧进行资源上限调整， 右侧会展示监控信息，监控项有数据量，QPS，TPS，内存使用量等。
 
-![](http://tidb-docs.cn-bj.ufileos.com/config001.png)
+![](https://tidb-doc.cn-bj.ufileos.com/basic/config001.png)
 
 ## 删除TiDB实例
 
@@ -63,6 +63,6 @@
 
 ![](http://tidb-doc.cn-bj.ufileos.com/basic/delete_button.png)
 
-![](http://tidb-docs.cn-bj.ufileos.com/delete001.png)
+![](https://tidb-doc.cn-bj.ufileos.com/basic/delete001.png)
 
 
