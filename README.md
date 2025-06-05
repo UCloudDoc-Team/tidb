@@ -19,6 +19,7 @@
         * [集群管理](/tidb/guide/utidb/cluster)
         * [Dashboard/监控访问](/tidb/guide/utidb/proxy)
         * [监控告警](/tidb/guide/utidb/monitor)
+        * [升级版本](/tidb/guide/utidb/upgrade.md)
     * TiDB Serverless
         * [实例](/tidb/guide/serverless/instance)
         * [用户](/tidb/guide/serverless/user)
@@ -31,6 +32,7 @@
         * [证书管理](/tidb/guide/serverless/ssl)
         * [数据库审计](/tidb/guide/serverlessaudit)
         * [安全组](/tidb/guide/serverless/secgroup)
+        * [升级版本](/tidb/guide/serverless/upgrade.md)
 * [数据迁移](/tidb/migration)
 * 性能数据
     * [TiDB Serverless](/tidb/capacity)
