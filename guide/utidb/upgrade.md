@@ -5,7 +5,7 @@
 ## 操作入口
 
 升级版本操作入口在控制台实例列表操作列
-![](https://tidb-doc.cn-bj.ufileos.com/utidb/upgrade03.pngg)
+![](https://tidb-doc.cn-bj.ufileos.com/utidb/upgrade03.png)
 
 ## 升级版本
 
